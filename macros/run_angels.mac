@@ -1,0 +1,15 @@
+/run/numberOfThreads 6
+
+/detector_geometry/detectorAngle 180
+/run/reinitializeGeometry
+
+/run/initialize
+
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+
+/gun/particle ion
+/gun/ion 55 134 0 0
+/process/had/rdm/nucleusLimits 134 134 55 55
+
+/run/printProgress 100000
+/run/beamOn 1000000
